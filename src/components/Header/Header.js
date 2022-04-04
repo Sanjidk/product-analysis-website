@@ -1,16 +1,17 @@
 import React from 'react';
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div>
-      <h1>DSLR Canon 1200D Review</h1>  
+    <div className='bg-dark text-white header-nav'>
+      <h1 className='head-title'>DSLR Canon 1200D Review</h1>  
       <nav>
-      <Link to='/'>HOME</Link>
-      <Link to='/reviews'>REVIEWS</Link>
-      <Link to='/dashboard'>DASHBOARD</Link>
-      <Link to='/blogs'>BLOGS</Link>
-      <Link to='/about'>ABOUT</Link>
+      <Link className='nav-bar' to='/'>HOME</Link>
+      <Link className='nav-bar' to='/reviews'>REVIEWS</Link>
+      <Link className='nav-bar' to='/dashboard'>DASHBOARD</Link>
+      <Link className='nav-bar' to='/blogs'>BLOGS</Link>
+      <Link className='nav-bar' to='/about'>ABOUT</Link>
     </nav>
     </div>
   );
