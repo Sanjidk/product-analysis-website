@@ -1,0 +1,38 @@
+[
+  {
+    "id": "624b5d5b57ab7520a136ad89",
+    "name": "Sanjid",
+    "rating": 5.0,
+    "review": "It's great to see 1080p video recording at a choice of 24, 25 or 30fps. It's backed up with the ability to set the exposure manually, and to adjust the shutter speed and aperture while recording."
+  },
+  {
+    "id": "624b5d5b9e1ca11fa235ceac",
+    "name": "Sadi",
+    "rating": 4.8,
+    "review": "As with all basic SLRs, the 1200D lacks built-in Wi-Fi, but yet it still has it's own app. The Canon EOS Companion is available for both Android and iOS and teaches you basic photographic concepts."
+  },
+  {
+    "id": "624b5d5b6aec022c587e3c8c",
+    "name": "Asib",
+    "rating": 4.5,
+    "review": "Discover the world in a new light through the lens of the new Canon EOS 1200D 18MP Digital SLR Camera. This stylish DSLR camera comes with 8GB micro SD card and an elegant bag to carry the device."
+  },
+  {
+    "id": "624b5d5bc25de99b207c515e",
+    "name": "Abir",
+    "rating": 5.0,
+    "review": "Amateur videographers should note however, that the 1200D lacks an external microphone port for capturing high quality audio. The other feature 1200D is Canon released for Android and iOS."
+  },
+  {
+    "id": "624b5d5bf34fd0567a60481d",
+    "name": "Juwel",
+    "rating": 4.7,
+    "review": "When light levels get low the EOS 1200D boosts its sensitivity to light so your pictures stay sharp and you can reduce the need to use flash and remaining discreet for natural expressions."
+  },
+  {
+    "id": "624b5d5be0377d82111fe155",
+    "name": "Rafi",
+    "rating": 4.9,
+    "review": "Shoot photos and video with a quality and character all of their own. 18-megapixel images from the EOS 1200D are packed with detail and are large enough to be printed at sizes up to A2+."
+  }
+]

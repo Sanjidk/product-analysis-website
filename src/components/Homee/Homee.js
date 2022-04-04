@@ -1,8 +1,13 @@
 import React from 'react';
 import canon from './canon1200d.jpg';
 import { Button } from 'react-bootstrap';
+import useReviews from '../Hooks/useReviews';
+import { Link } from 'react-router-dom';
 
 const Homee = () => {
+
+  const [reviews, setReviews] = useReviews();  
+
   return (
     <div>
       <div>
@@ -16,10 +21,13 @@ const Homee = () => {
             <img src={canon} alt="" />
           </section>
         </main>
-    
       </div>
-      <div>
-
+      <div className='mb-3'>
+        <h1>Customer Reviews:</h1>
+       
+        <Link to='/reviews'>
+          <Button>See All Reviews</Button>
+        </Link>
       </div>
     </div>
   );
