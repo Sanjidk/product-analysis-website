@@ -3,10 +3,12 @@ import canon from './canon1200d.jpg';
 import { Button } from 'react-bootstrap';
 import useReviews from '../Hooks/useReviews';
 import { Link } from 'react-router-dom';
+import Review from '../Review/Review';
 
 const Homee = () => {
 
-  const [reviews, setReviews] = useReviews();  
+  const [reviews, setReviews] = useReviews();
+  const  sliceReview = reviews.slice(0, 3);
 
   return (
     <div>
@@ -23,7 +25,13 @@ const Homee = () => {
         </main>
       </div>
       <div className='mb-3'>
-        <h1>Customer Reviews:</h1>
+        <h1>Customer Reviews: {sliceReview.length}</h1>
+        {
+          sliceReview.map(review => <Review
+          key={review.id}
+          review={review}
+          ></Review>)
+        }
        
         <Link to='/reviews'>
           <Button>See All Reviews</Button>
