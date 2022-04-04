@@ -5,7 +5,7 @@ import { Row, Card, Col } from 'react-bootstrap';
 const Blogs = () => {
   return (
     <div>
-      <Row xs={1} md={1} className="g-4">
+      <Row xs={1} md={1} className='mx-auto'>
     <Col>
       <Card className='m-5 shadow-lg'>
         <Card.Body>
@@ -29,7 +29,6 @@ const Blogs = () => {
         </Card.Body>
       </Card>
     </Col>
-  )
 </Row>
 
     </div>
