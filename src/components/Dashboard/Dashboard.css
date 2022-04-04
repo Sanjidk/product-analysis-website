@@ -1,0 +1,9 @@
+.dashboard-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pie-span span{
+margin-right: 20px;
+font-weight: 600;
+}
