@@ -1,12 +1,10 @@
 import React from 'react';
-import './NotFound.css'
-import error404 from './notFound.gif';
 
 
 const NotFound = () => {
   return (
     <div className='error-page'>
-      <img src={error404} alt="" />
+      <img src="https://freefrontend.com/assets/img/html-funny-404-pages/CodePen-404-Page.gif" alt="" />
     </div>
   );
 };
