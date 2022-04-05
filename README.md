@@ -1,6 +1,8 @@
 # This is a React Project
 
-This project is about DSLR Canon 1200D review site[Live Link](https://product-analysis-sanjid.netlify.app/).
+This project is about DSLR Canon 1200D review site
+
+[DSLR anon 1200D Review](https://product-analysis-sanjid.netlify.app/).
 
 ## About this Project
 

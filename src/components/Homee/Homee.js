@@ -25,7 +25,7 @@ const Homee = () => {
         </main>
       </div>
       <div className='mb-3'>
-        <h1>Customer Reviews: {sliceReview.length}</h1>
+        <h1 className='fw-bold'>Customer Reviews ({sliceReview.length})</h1>
         <div className='all-reviews-card'>
         {
           sliceReview.map(review => <Review

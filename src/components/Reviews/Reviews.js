@@ -8,7 +8,7 @@ const Reviews = () => {
 
   return (
     <div>
-      <h1>Total Reviews: {reviews.length}</h1>
+      <h1 className='fw-bold'>Total Reviews ({reviews.length})</h1>
       <div className='all-reviews-card'>
       {
         reviews.map(review => <Review
