@@ -1,9 +1,9 @@
 import React from 'react';
 import canon from './canon1200d.jpg';
 import { Button } from 'react-bootstrap';
-import useReviews from '../Hooks/useReviews';
 import { Link } from 'react-router-dom';
 import Review from '../Review/Review';
+import useReviews from '../../hooks/useReviews';
 
 const Homee = () => {
 
@@ -26,13 +26,14 @@ const Homee = () => {
       </div>
       <div className='mb-3'>
         <h1>Customer Reviews: {sliceReview.length}</h1>
+        <div className='all-reviews-card'>
         {
           sliceReview.map(review => <Review
           key={review.id}
           review={review}
           ></Review>)
         }
-       
+        </div>
         <Link to='/reviews'>
           <Button>See All Reviews</Button>
         </Link>
