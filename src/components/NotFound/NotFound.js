@@ -1,12 +1,11 @@
 import React from 'react';
 import './NotFound.css'
-import error404 from './error.png';
 
 
 const NotFound = () => {
   return (
     <div className='error-page'>
-      <img src={error404} alt="" />
+      <img src='https://images.hdqwalls.com/wallpapers/error-404-page-3k.jpg' alt="" />
     </div>
   );
 };

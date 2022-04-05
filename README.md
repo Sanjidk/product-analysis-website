@@ -2,7 +2,8 @@
 
 This project is about DSLR Canon 1200D review site
 
-[DSLR anon 1200D Review](https://product-analysis-sanjid.netlify.app/).
+[DSLR Canon 1200D Review]().
+[https://product-analysis-sanjid.netlify.app/](https://product-analysis-sanjid.netlify.app/).
 
 ## About this Project
 
